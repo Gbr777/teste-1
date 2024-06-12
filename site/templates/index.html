@@ -1,24 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Concurso Site</title>
-    <link rel="stylesheet" href="static/css/styles.css">
+    <title>Alerta Concurso</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: #50b3a2;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .alert {
+            background: #ffcc00;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .alert img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #50b3a2;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Concurso Site</h1>
-        <nav>
-            <a href="register">Cadastro</a>
-        </nav>
+        <h1>Alerta Concurso</h1>
     </header>
-    <main>
-        <h2>Bem-vindo ao Concurso Site!</h2>
-        <p>Encontre os melhores concursos públicos aqui.</p>
-    </main>
+    <div class="container">
+        <div class="alert">
+            <h2>Concurso Público para Polícia Federal</h2>
+            <p>Inscrições abertas para o concurso público da Polícia Federal. Veja mais detalhes abaixo:</p>
+            <img src="https://www.gettyimages.com.br/detail/foto/man-helping-his-pregnant-coworker-at-work-imagem-royalty-free/1478252234?adppopup=true/800x400" alt="Imagem do Concurso">
+        </div>
+        <div class="alert">
+            <h2>Concurso para Professores Estaduais</h2>
+            <p>Confira as vagas abertas para professores na rede estadual de ensino.</p>
+            <img src="https://www.gettyimages.com.br/detail/foto/two-male-elves-pulling-large-christmas-cracker-imagem-royalty-free/200272537-001?adppopup=true/800x400" alt="Imagem do Concurso">
+        </div>
+    </div>
     <footer>
-        <p>&copy; 2024 Concurso Site</p>
+        <p>&copy; 2024 Alerta Concurso. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
